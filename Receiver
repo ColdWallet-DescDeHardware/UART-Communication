@@ -18,8 +18,6 @@ parameter Oversampling = 8;
 
 wire RxD_idle;
 
-////////////////////////////////
-
 reg [3:0] RxD_state = 0;
 
 `ifdef SIMULATION
